@@ -1,0 +1,14 @@
+{
+  "name": "privy-bug",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter wallet dev & pnpm --filter test-app dev",
+    "dev:wallet": "pnpm --filter wallet dev",
+    "dev:test-app": "pnpm --filter test-app dev"
+  },
+  "devDependencies": {
+    "pnpm": "^8.0.0"
+  }
+}
+
